@@ -16,6 +16,7 @@ function draw()
   px=xslider.value();
   py=-yslider.value();
   background(220);
+  
   a=dimmer(50+px,50+py,100+pz);
   b=dimmer(-50+px,50+py,100+pz);
   c=dimmer(50+px,-50+py,100+pz);
